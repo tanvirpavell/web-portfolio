@@ -1,5 +1,6 @@
 body{
     font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 40px;
@@ -15,4 +16,23 @@ h1{
 }
 .half-weight img{
     width: 100%;
+    padding: none;
+    margin: none;
+    display: flex;
+}
+.top-backgroung{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(91, 71, 179) 100%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-weight: 700px;
 }
