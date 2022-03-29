@@ -1,0 +1,18 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.name-highlight{
+    color: #624bcd;
+}
+.half-weight{
+    width: 40%;
+    float: left;
+    margin: 3%;
+    padding: 2%;
+}
+.half-weight img{
+    width: 100%;
+}
