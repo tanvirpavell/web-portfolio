@@ -5,6 +5,12 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 35px;
+}
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: #624bcd;
 }
@@ -26,6 +32,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 100px;
 }
 .link-button{
     text-decoration: none;
@@ -35,4 +42,9 @@ section{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(91, 71, 179) 100%, rgba(0,212,255,1) 100%);
     color: white;
     font-weight: 700px;
+}
+.secend-background{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
