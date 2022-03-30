@@ -50,17 +50,36 @@ section{
     background-image: url("image/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 300px;
+}
+
+.single-box{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 100%;
+    width: 80%;
 }
 .last-section{
     background-image: url("image/exp-bg.png");
     background-repeat: no-repeat;
-    background-position: left;}
+    background-position: left;
 
-
-.single-box{
-    box-shadow: 5px 7px 40px #3f3f41;
-    height: 80%;
-    border-radius: 5px;
-    width: none;
 }
-
+#box-gredient{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-box{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, blue,cyan );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+.display-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30px;
+}
